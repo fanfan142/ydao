@@ -1,11 +1,12 @@
 # 有道云笔记自动登陆签到看广告获取空间，配合腾讯云函数python3.6
 import requests
 # server酱开关，填0不开启(默认)，填1只开启cookie失效通知，填2同时开启cookie失效通知和签到成功通知
-sever = ''
+sever = '2'
 # 填写server酱sckey,不开启server酱则不用填
-sckey = ''
+sckey = 'SCT211523TcKTuBchqyhAJ0VxhUx2SV1wO'
 # 填入有道云笔记客户端抓包的cookie
-cookie = ''
+cookie = 'YNOTE_LOGIN=true; YNOTE_LOGIN=true; YNOTE_SESS=v2|r1-du-zs8mkYOfwK6LQBRq4nLgz6LqL0OEk4quRLPB0TZhLpLPMJS0OmhfpuPM6BRwKOMJShMgyReSO4zl64lGReShHg4hMwu0
+'
 
 def start():
   ad=0
